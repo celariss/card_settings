@@ -13,8 +13,8 @@ dependencies:
   card_settings:
     path: ../
   font_awesome_flutter: any
-  adaptive_theme: ^2.0.0
-  google_fonts: ^4.0.0
+  adaptive_theme: ^3.6.0
+  google_fonts: ^6.2.1
 
   file_picker: any
   shared_preferences_web: any
