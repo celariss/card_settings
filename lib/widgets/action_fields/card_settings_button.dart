@@ -70,13 +70,13 @@ class CardSettingsButton extends StatelessWidget
     var style = Theme.of(context).textButtonTheme.style ?? ButtonStyle();
     if (backgroundColor != null)
       style = style.copyWith(
-          backgroundColor: MaterialStateProperty.all<Color>(backgroundColor!));
+          backgroundColor: WidgetStateProperty.all<Color>(backgroundColor!));
     if (textColor != null)
       style = style.copyWith(
-          foregroundColor: MaterialStateProperty.all<Color>(textColor!));
+          foregroundColor: WidgetStateProperty.all<Color>(textColor!));
     if (!enabled)
       style = style.copyWith(
-          backgroundColor: MaterialStateProperty.all<Color>(Colors.grey));
+          backgroundColor: WidgetStateProperty.all<Color>(Colors.grey));
 
     return Container(
       margin: EdgeInsets.only(

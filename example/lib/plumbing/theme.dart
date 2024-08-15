@@ -40,9 +40,9 @@ ThemeData _buildTheme(Brightness brightness) {
       ),
       textButtonTheme: TextButtonThemeData(
         style: ButtonStyle(
-          backgroundColor: MaterialStateProperty.all<Color>(
+          backgroundColor: WidgetStateProperty.all<Color>(
               Colors.indigo[100]!), // button background color
-          foregroundColor: MaterialStateProperty.all<Color>(
+          foregroundColor: WidgetStateProperty.all<Color>(
               Colors.white), // button text color
         ),
       ),

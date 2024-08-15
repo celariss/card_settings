@@ -30,7 +30,7 @@ class _ExampleScaffoldState extends State<ExampleScaffold> {
 
     return Scaffold(
       key: _scaffoldKey,
-      backgroundColor: Theme.of(context).colorScheme.background,
+      backgroundColor: Theme.of(context).colorScheme.surface,
       appBar: AppBar(
         title: const Text("My Little Pony"),
         actions: <Widget>[
