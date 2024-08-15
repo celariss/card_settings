@@ -15,3 +15,8 @@ pubspec.lock
 
 .idea
 example/.flutter-plugins-dependencies
+.flutter-plugins-dependencies
+.flutter-plugins
+example/ios/Flutter/flutter_export_environment.sh
+example/macos/Flutter/Flutter-Debug.xcconfig
+example/macos/Flutter/Flutter-Release.xcconfig
