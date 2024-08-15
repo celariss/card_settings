@@ -1,22 +1,69 @@
-.DS_Store
-.dart_tool/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# macOS related
+.DS_Store
+
+# Dart/Flutter related
+.dart_tool/
 .packages
 .pub/
+.pub-cache/
+.buildlog/
+.firepit-log.txt
+/build/
+coverage/
+doc/
+**/doc/api/
+lib/generated_plugin_registrant.dart
+flutter_export_environment.sh
 
-build/
+# iOS related
 ios/.generated/
 ios/Flutter/Generated.xcconfig
 ios/Runner/GeneratedPluginRegistrant.*
-coverage/
-doc/
-
-pubspec.lock
-
-.idea
-example/.flutter-plugins-dependencies
-.flutter-plugins-dependencies
-.flutter-plugins
+**/ios/Flutter/.last_build_id
 example/ios/Flutter/flutter_export_environment.sh
+
+# macOS related
 example/macos/Flutter/Flutter-Debug.xcconfig
 example/macos/Flutter/Flutter-Release.xcconfig
+
+# Android related
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code related
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.atom/
+.history
+.svn/
+
+# Plugin related
+.flutter-plugins-dependencies
+.flutter-plugins
+example/.flutter-plugins-dependencies
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Lock files
+pubspec.lock
