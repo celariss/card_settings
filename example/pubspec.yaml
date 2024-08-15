@@ -1,6 +1,6 @@
 name: card_settings_example
 description: A Flutter project that demonstrated the use of the card_settings package.
-version: 1.0.0 
+version: 1.0.1
 publish_to: none
 
 dependencies:
@@ -8,24 +8,27 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
   card_settings:
     path: ../
-  font_awesome_flutter:
+  font_awesome_flutter: any
   adaptive_theme: ^2.0.0
   google_fonts: ^4.0.0
 
+  file_picker: any
+  shared_preferences_web: any
+  intl: any
 dev_dependencies:
-  flutter_lints: ^1.0.4
+  flutter_lints: ^4.0.0
   flutter_test:
     sdk: flutter
 
 environment:
-  sdk: ">=2.12.0 <4.0.0"
+  sdk: ">=2.19.6 <4.0.0"
 
 flutter:
   uses-material-design: true
 
   assets:
     - assets/twilight_sparkle.png
-
-
