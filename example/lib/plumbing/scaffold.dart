@@ -8,7 +8,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../example.dart';
 
 class ExampleScaffold extends StatefulWidget {
-  const ExampleScaffold({Key? key}) : super(key: key);
+  const ExampleScaffold({super.key});
 
   @override
   _ExampleScaffoldState createState() => _ExampleScaffoldState();
@@ -64,7 +64,7 @@ class _ExampleScaffoldState extends State<ExampleScaffold> {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         duration: const Duration(seconds: 1),
-        content: Text(label + ' = ' + value.toString()),
+        content: Text('$label = $value'),
       ),
     );
   }

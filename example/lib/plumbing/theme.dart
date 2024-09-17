@@ -5,8 +5,8 @@ import 'scaffold.dart';
 
 class ExampleTheme extends StatelessWidget {
   const ExampleTheme({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

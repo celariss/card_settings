@@ -18,8 +18,8 @@ class ExampleForm extends StatefulWidget {
     this.showMaterialonIOS,
     this.scaffoldKey, {
     required this.onValueChanged,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   final Orientation orientation;
   final bool showMaterialonIOS;
