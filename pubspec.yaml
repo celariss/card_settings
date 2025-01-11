@@ -16,11 +16,11 @@ dependencies:
   # # Error: The getter 'subtitle2' isn't defined for the class 'TextTheme'.
   # # For main application, a temp workaround until card_settings repo merges it's own pubspect fix
   # dependency_overrides:
-  #   flutter_cupertino_settings:
-  #     git:
-  #       url: https://github.com/imhafeez/flutter_cupertino_settings
+  flutter_cupertino_settings:
+    git:
+      url: https://github.com/imhafeez/flutter_cupertino_settings
 
-  flutter_cupertino_settings: ^0.5.0 # show apple style dialogs
+  #flutter_cupertino_settings: ^0.5.0 # show apple style dialogs
   flutter_material_pickers: ^3.7.0 # show android style dialogs
   pattern_formatter: ^4.0.0 # used for localized doubles
   flutter_multi_formatter: ^2.13.0 # used for localized phone numbers
