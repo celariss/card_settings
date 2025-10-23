@@ -21,7 +21,11 @@ dependencies:
       url: https://github.com/imhafeez/flutter_cupertino_settings
 
   #flutter_cupertino_settings: ^0.5.0 # show apple style dialogs
-  flutter_material_pickers: ^3.7.0 # show android style dialogs
+  flutter_material_pickers: # show android style dialogs
+    # (Oct 23 2025) : latest official v3.7.0 is not compatible with flutter 3.35+
+    git:
+      url: https://github.com/LucaSacc1/flutter_material_pickers
+      #ref: dependencies-updated # branch name or commit hash
   pattern_formatter: ^4.0.0 # used for localized doubles
   flutter_multi_formatter: ^2.13.0 # used for localized phone numbers
 
